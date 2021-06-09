@@ -1,0 +1,55 @@
+/* navigation */
+
+#navbar{
+    flex-direction: column;
+}
+#navbar img{
+    display: block;
+    margin:auto;
+    width:3.3rem;
+    height:3.3rem;
+    padding-top:2px;
+}
+
+#navbar .nav li a{
+    font-size: 0.6rem;
+    padding: 0.5rem 0.8rem;
+}
+
+/* home */
+#home{
+    flex-wrap: wrap;
+}
+#home p{
+    font-size: 0.8rem;
+    width:200px;
+}
+
+/* service section  */
+
+.services{
+    flex-direction: column;
+}
+
+.box{
+    margin:1rem 3rem;
+}
+.box img{
+    height:100px;
+    width:150px;
+}
+
+.servicehead{
+    font-size: 1rem;
+}
+
+/* contact */
+.contacthead{
+    font-size: 2rem;
+}
+
+/* utility */
+.hprimary{
+    font-size: 1.3rem;
+    text-align: center;
+}

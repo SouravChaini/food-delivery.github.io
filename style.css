@@ -1,0 +1,227 @@
+/* css reset */
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header set */
+header{
+    position:sticky;
+    top:0px;
+}
+header::before{
+    content:"";
+    background-color:coral;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.6;
+}
+header #navbar{
+    display:flex;
+    margin-top: 14px;
+}
+
+/* image and navbar */
+#navbar img{
+    border-radius: 200px;
+    width: 4.3rem;
+    height: 4.3rem;
+    margin: 0.3rem 0.5rem;
+}
+
+/* navbar and navigation menu  */
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .nav li{
+    list-style: none;
+}
+#navbar .nav li a{
+    font-family: 'Averia Serif Libre', cursive; 
+    padding:0.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color:white;
+}
+#navbar .nav li a:hover{
+    color:black;
+    background-color:white;
+}
+
+
+/* utility function */
+.hprimary{
+    font-size: 2.3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    color:white;
+    padding:1rem;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.hsecondary{
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:crimson;
+}
+/* section  */
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 17rem;
+}    
+#home::before{
+    content:"";
+    background-image: url('/foodbackground.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center ;
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:377px;
+    z-index: -1;
+    opacity:0.8;
+}
+#home p{
+    color:white;
+    font-size: 1.2rem;
+    font-family: 'Averia Serif Libre', cursive; 
+}
+
+#home .btn{
+    margin:1rem;
+}
+.btn button{
+    cursor:pointer;
+    width:100px;
+    height:25px;
+    border-radius: 10px;
+    font-family: 'Averia Serif Libre', cursive; 
+}
+.btn button:hover{
+    color:white;
+    background-color: crimson;
+}
+
+
+/* services section  */
+.servicehead{
+   color:black;
+   margin-top:50px;
+   margin-bottom:10px ;
+   font-size: 1.6rem;
+   font-family: 'Baloo Bhai 2', cursive;
+
+}
+#ourservices{
+    margin:2rem;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    border: 3px solid brown;
+    padding:9px;
+    margin:0rem 2rem 0rem 2rem;
+    border-radius: 23px;
+    background-color: rgb(243, 239, 239);
+}
+.box img{
+    display:block;
+    margin:auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+/* section contactus */
+#contactus::before{
+    content:'';
+    background-image: url('https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.6;
+
+}
+
+#contactus{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 78px;
+}
+
+.contacthead{
+    font-size: 2.6rem;
+    color:black;
+    margin-top: 2px;
+    margin-bottom: 22px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.box1{
+    padding:3px;
+    margin:3px 2px;
+    font-family:'Baloo Bhai 2', cursive; 
+
+}
+
+.box1 input{
+    font-family: 'Averia Serif Libre', cursive; 
+}
+
+.btn input{
+    border-radius: 10px;
+    cursor:pointer;
+    padding:3px;
+}
+
+.btn input:hover{
+    background-color: crimson;
+    color:white;
+}
+
+/* footer  */
+#bottom::before{
+    content:'';
+    background-color: black;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+}
+#bottom{
+    position: relative;
+}
+#bottom p{
+    font-family:  'Averia Serif Libre', cursive; 
+    margin:3px;  
+    color:white;  
+}
