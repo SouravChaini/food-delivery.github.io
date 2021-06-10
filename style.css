@@ -86,7 +86,7 @@ header #navbar{
 }    
 #home::before{
     content:"";
-    background-image: url('/foodbackground.jpg');
+    background-image: url('https://raw.githubusercontent.com/SouravChaini/food-delivery.github.io/main/foodbackground.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center center ;
