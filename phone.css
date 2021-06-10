@@ -16,7 +16,7 @@
     padding: 0.5rem 0.8rem;
 }
 #navbar .nav li a:hover{
-    background-color:none;
+    background-color:transparent;
 }
 /* home */
 #home{
